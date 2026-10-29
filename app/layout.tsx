@@ -1,0 +1,3 @@
+import type {Metadata} from 'next';import './globals.css';import Header from '@/components/header';import {site} from '@/content/site';
+export const metadata:Metadata={metadataBase:new URL(site.url),title:{default:site.name+' | Data Engineer & Analyst',template:'%s | '+site.name},description:site.intro,openGraph:{title:site.name,description:site.intro,type:'website'},robots:{index:true,follow:true}};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en" suppressHydrationWarning><body><Header/>{children}<footer className="container py-10 text-sm muted" style={{borderTop:'1px solid var(--border)'}}>© {new Date().getFullYear()} {site.name} · Addis Ababa, Ethiopia</footer></body></html>}

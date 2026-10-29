@@ -6,10 +6,10 @@ export const site = {
  email:'zemberhanu@gmail.com', linkedin:'https://www.linkedin.com/in/zelalem-b-bogale',github:'https://github.com/ZelaBerh',
  // sample: replace with your deployed domain
  url:'https://portfolio.example.com',
- cv:'/Zelalem_Bogale_CV.pdf',languages:['English','Amharic','French'],
+ cv:'/cv',languages:['English','Amharic','French'],
  about:'My work sits at the intersection of data engineering, business intelligence, and applied machine learning. I bring an engineering foundation and an MBA perspective to building dependable systems and communicating their value.',
  education:[{degree:'MBA, Big Data and Business Intelligence',school:'ACT American College, Ethiopia'},{degree:'BSc, Engineering',school:'École Centrale de Nantes, France'}],
- navigation:[{label:'Expertise',href:'/#expertise'},{label:'Projects',href:'/#work'},{label:'Experience',href:'/#experience'},{label:'Contact',href:'/#contact'}]
+ navigation:[{label:'Expertise',href:'/#expertise'},{label:'Projects',href:'/#work'},{label:'Experience',href:'/#experience'},{label:'CV',href:'/cv'},{label:'Contact',href:'/#contact'}]
 };
 export const pillars=[
  {id:'engineering',label:'Data Engineering',summary:'Scalable pipelines and reliable data platforms.',skills:['Python','SQL','Databricks','Spark','dbt','ETL/ELT','Data modeling','PostgreSQL','MySQL','BigQuery','Docker','GCP','AWS']},

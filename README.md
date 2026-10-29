@@ -26,7 +26,7 @@ Edit `content/site.ts` for biography, experience, skills, certifications, contac
 
 The six included projects are illustrative. Their performance claims and repository URLs must be replaced with verifiable work before representing them as completed projects.
 
-Place your CV at `public/Zelalem_Bogale_CV.pdf`. The download button will work once the file exists.
+The CV is a dedicated responsive page at `/cv`, with a print-friendly layout. Use the browser Print command and select Save as PDF if a downloadable document is needed. The headshot lives at `public/zelalem-headshot.webp`.
 
 Set `site.url` to your deployed domain so canonical metadata and the sitemap use the correct host.
 
